@@ -1,0 +1,45 @@
+.container {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "box1 box2"
+  "box1 box3"
+  ;
+}
+
+article {
+  position: relative;
+}
+
+.article-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box1 {
+  margin-top: 50px;
+  width: 400px;
+  height: 420px;
+  background-color: rgb(16, 16, 21);
+  grid-area: box1;
+}
+
+.box2 {
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(96, 96, 161);
+  grid-area: box2;
+}
+.box3 {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(161, 82, 82);
+  grid-area: box3;
+}

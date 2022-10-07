@@ -1,0 +1,78 @@
+
+
+/* --------------- GRID -------------- */
+
+section{
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.container {
+  margin-top: 40px;
+  width: 1100px;
+  height: 450px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "caixa1 caixa2 caixa3"
+
+}
+
+.caixa1{
+  grid-area: caixa1;
+  background-color: blue;
+}
+
+.caixa2{
+  grid-area: caixa2;
+  background-color: aqua;
+}
+
+.caixa3 {
+  grid-area: caixa3;
+  background-color: purple;
+
+}
+
+
+h2{
+  margin: 10px 0px 0px 60px;
+}
+
+h3 {
+  margin: 65px 0px 0px -20px; 
+
+}
+.down-container {
+  display: grid;
+  grid-template-columns: 550 1fr;
+}
+
+.box-maior {
+  width: 350px;
+  height: 380px;
+  background-color: #ccc;
+  margin: -150px 0px 0px -52px;
+}
+
+.small-box {
+  width: 250px;
+  height: 150px;
+  background: pink;
+}
+
+.container-small-box {
+  margin-top: -150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.noticia {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+
+
